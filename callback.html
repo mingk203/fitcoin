@@ -14,7 +14,7 @@
         
         if (code) {
             // 서버에 인증 코드 전송하여 토큰 요청
-            fetch('http://localhost:5000/callback-auth', {
+            fetch('http://localhost:5000/callback-auth', {  // 실제 서버 URL로 변경
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
