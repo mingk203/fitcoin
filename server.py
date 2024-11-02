@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Fitbit 앱 설정
 client_id = '23PVVC'
 client_secret = '1dfd56b33e39c24f5d9c8b567b044409'
-redirect_uri = 'https://mingk203.github.io/fitcoin/callback'  # HTML 페이지와 일치해야 함
+redirect_uri = 'https://mingk203.github.io/fitcoin/callback.html'  # HTML 페이지와 일치해야 함
 scope = 'activity heartrate sleep'
 
 # Fitbit Authorization URL 생성
